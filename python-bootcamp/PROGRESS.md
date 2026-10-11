@@ -1,7 +1,7 @@
 | Member | Week | Issue | PR | Reviewer | Tests | Hours |
 |--------|------|-------|----|----------|-------|-------|
 | **WEEK 1** | | | | | | |
-| Quaandang183 | w1 | | | NgoGiaBao279 | | |
+| Quaandang183 | w1 | #16 | #14 | NgoGiaBao279 | 5/5 | 3 |
 | NgoGiaBao279 | w1 | #16 | #20 | ykeban2516 | 5/5 | 3 |
 | ykeban2516 | w1 | | | htoanh2514-dot | | |
 | htoanh2514-dot | w1 | | | pbtran2524-lab | | |
