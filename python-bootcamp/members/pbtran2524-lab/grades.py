@@ -1,30 +1,15 @@
-import statistics
-from typing import Dict, List
+def can_register_thesis(credits: int, gpa: float) -> bool:
+    return credits >= 120 and gpa >= 2.0
 
 
-def grade_summary(scores: List[float]) -> Dict[str, float]:
-    if not scores:
-        raise ValueError("The list of scores cannot be empty.")
+def missing(credits: int, gpa: float) -> list[str]:
+    reasons = []
 
-    min_val = round(min(scores), 2)
-    max_val = round(max(scores), 2)
-    mean_val = round(sum(scores) / len(scores), 2)
-    median_val = round(statistics.median(scores), 2)
+    if credits < 120:
+        needed_credits = 120 - credits
+        reasons.append(f"need {needed_credits} more credits")
 
-    return {
-        "min": min_val,
-        "max": max_val,
-        "mean": mean_val,
-        "median": median_val,
-    }
+    if gpa < 2.0:
+        reasons.append("gpa must be at least 2.0")
 
-if __name__ == "__main__":
-    raw_input = input("Enter the list of scores (separated by spaces): ").strip()
-
-    if raw_input:
-        scores = [float(x) for x in raw_input.split()]
-        
-        result = grade_summary(scores)
-        print("Result:", result)
-    else:
-        print("Invalid. Please provide a list of scores.")
+    return reasons

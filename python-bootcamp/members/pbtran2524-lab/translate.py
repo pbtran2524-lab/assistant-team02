@@ -3,7 +3,6 @@ def gcd(a: int, b: int) -> int:
         a, b = b, a % b
     return a
 
-
 if __name__ == "__main__":
     try:
         raw_input = input("Enter two integers a and b (separated by a space): ").strip()
