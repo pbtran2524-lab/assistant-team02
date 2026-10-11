@@ -1,5 +1,6 @@
 import statistics
 
+
 def grade_sum(score):
 
     try :

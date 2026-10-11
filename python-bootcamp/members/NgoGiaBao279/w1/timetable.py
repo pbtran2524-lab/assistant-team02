@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 def group_timetable(timetable):
 
     grouped = defaultdict(list)

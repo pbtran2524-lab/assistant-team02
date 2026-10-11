@@ -2,6 +2,7 @@
 import re
 from collections import Counter
 
+
 def word_count(s):
     s=s.lower()
     clean_txt =re.sub(r'[^\w\s]','',s)
