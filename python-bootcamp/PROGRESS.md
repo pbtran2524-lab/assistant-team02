@@ -3,7 +3,7 @@
 | **WEEK 1** | | | | | | |
 | Quaandang183 | w1 | #16 | #14 | NgoGiaBao279 | 5/5 | 3 |
 | NgoGiaBao279 | w1 | | | ykeban2516 | | |
-| ykeban2516 | w1 | #19 | #11 | htoanh2514-dot | 5/5 | 3 |
+| ykeban2516 | w1 | | | htoanh2514-dot | | |
 | htoanh2514-dot | w1 | | | pbtran2524-lab | | |
 | pbtran2524-lab | w1 | | | Quaandang183 | | |
 | **WEEK 2** | | | | | | |
