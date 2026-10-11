@@ -1,5 +1,5 @@
-from collections import Counter
 import re
+from collections import Counter
 
 
 def clean_text(text: str) -> list[str]:
