@@ -1,17 +1,13 @@
-from collections import Counter
 import re
+from collections import Counter
 
 
-def word_count(text: str) -> Counter:
+def word_count(text: str) -> dict:
   """Đếm tần suất xuất hiện của từ (bỏ qua dấu câu, không phân biệt hoa thường)."""
-  # Chuyển về chữ thường
   text = text.lower()
-  # Loại bỏ dấu câu cơ bản (, . ! ? ; :)
   text = re.sub(r"[,.!?;:]", "", text)
-  # Tách từ theo khoảng trắng
   words = text.split()
-  # Dùng Counter để đếm
-  return Counter(words)
+  return dict(Counter(words))
 
 
 def top_k(text: str, k: int) -> list:

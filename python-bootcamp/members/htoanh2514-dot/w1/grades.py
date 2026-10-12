@@ -1,7 +1,7 @@
 import statistics
 
 
-def grade_summary(scores: list) -> dict:
+def summary(scores: list) -> dict:
   """Nhận vào một list điểm số, trả về dictionary chứa min, max, mean, median (làm tròn 2 chữ số thập phân)."""
   if not scores:
     raise ValueError("List điểm số không được để trống.")

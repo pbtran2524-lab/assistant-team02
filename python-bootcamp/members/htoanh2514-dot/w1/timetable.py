@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 
-def group_timetable(timetable: list) -> dict:
+def by_day(timetable: list) -> dict:
   """Gom nhóm danh sách các môn học theo từng ngày, các môn học trong mỗi ngày được sắp xếp."""
   timetable_dict = defaultdict(list)
 
