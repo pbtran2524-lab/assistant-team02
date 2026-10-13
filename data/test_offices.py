@@ -1,7 +1,7 @@
 import csv
 from pathlib import Path
 
-CSV_PATH = Path(__file__).resolve().parent / "offices.csv"
+CSV_PATH = Path(__file__).resolve().parents[1] / "data" / "offices.csv"
 
 def get_office_by_name(name: str):
     with open(CSV_PATH, mode="r", encoding="utf-8") as file:
