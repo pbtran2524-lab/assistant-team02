@@ -1,18 +1,20 @@
-@'
 # Security Check Report
 
-- **Date:** 2026-10-12
 - **Issue:** #54 (Security: review repo for personal data and secrets)
-- **Status:** Passed
+- **Assignee:** @NgoGiaBao279
+- **Date:** 2026-10-13
+- **Result:** PASSED
 
-## 1. Scope & Execution
-- **Automated Check:** Ran `gitleaks detect --source . -v` across all 70 commits in the git history.
-- **Manual Review:** Searched workspace for sensitive keywords (`password`, `secret`, `api_key`, `token`) and checked for local configurations or personal identifiable information (PII).
+## 1. Automated Scan (Gitleaks)
+- **Command:** `gitleaks detect --source . -v --report-format json --report-path docs/gitleaks-report.json`
+- **Scanned:** 72 commits (~59.14 KB)
+- **Result:** No leaks found (0 secrets detected)
+- **Artifact:** `docs/gitleaks-report.json`
 
-## 2. Results
-- **Gitleaks:** `no leaks found` (70 commits scanned).
-- **Manual Check:** No sensitive credentials, private keys, or personal paths detected.
+## 2. Manual Review
+- [x] Environment and secret files (`.env`, config files) are ignored in `.gitignore`.
+- [x] No hardcoded passwords, tokens, API keys in source code.
+- [x] No personal sensitive information (PII) in files or commit messages.
 
-## 3. Remediation
-- None required.
-'@ | Out-File -FilePath docs/security-check.md -Encoding utf8
+## 3. Conclusion
+The repository is clean and complies with the security requirements.
