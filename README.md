@@ -13,3 +13,10 @@ Open a Terminal (or Git Bash), navigate to the repository root directory, and ru
 ```bash
 pytest -q python-bootcamp/tests/test_w1.py --member <your_directory_name> --variant <number_from_1_to_4>
 ```
+
+## Benchmark Evaluation
+
+To run the benchmark evaluation script and check accuracy:
+
+```bash
+python eval/run.py
