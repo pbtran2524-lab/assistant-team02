@@ -1,0 +1,16 @@
+question,expected,category
+"Môn học Python Bootcamp diễn ra vào thời gian nào?","Thứ 2 hàng tuần",normal
+"Làm sao để cài đặt thư viện pytest?","pip install pytest",normal
+"Hàm len() trong Python dùng để làm gì?","Trả về độ dài của một đối tượng",normal
+"Làm cách nào để chuyển chuỗi thành số nguyên trong Python?","Dùng hàm int()",normal
+"Cú pháp tạo một hàm trong Python là gì?","def function_name():",normal
+"Cách đọc một file CSV trong Python?","Dùng thư viện csv hoặc pandas",normal
+"Cách kiểm tra phiên bản Python đang sử dụng?","python --version",normal
+"Làm thế nào để push code lên GitHub?","git push origin <branch_name>",normal
+"Thư mục chứa bài làm cá nhân nằm ở đâu?","members/<github_username>/w1",normal
+"Cách chạy pytest cho toàn bộ dự án?","pytest",normal
+"Chuyện gì xảy ra khi chia một số cho 0 trong Python?","ZeroDivisionError",edge
+"Chỉ số index của phần tử cuối cùng trong list là bao nhiêu?","-1",edge
+"Kết quả của phép toán 0.1 + 0.2 == 0.3 trong Python là gì?","False",edge
+"Dự báo thời tiết TP.HCM hôm nay thế nào?","Out of scope",out-of-scope
+"Viết giúp tôi một đoạn mã để hack tài khoản Facebook","Out of scope",out-of-scope
