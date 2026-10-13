@@ -1,4 +1,4 @@
-def sieve_of_eratosthenes(n: int) -> list:
+def primes_up_to(n: int) -> list:
   """Tìm các số nguyên tố từ 2 đến n bằng thuật toán sàng Eratosthenes."""
   if n < 2:
     return []

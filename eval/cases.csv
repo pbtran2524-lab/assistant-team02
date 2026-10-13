@@ -1,0 +1,16 @@
+question,expected,category
+"When does the Python Bootcamp course take place?","Every Monday",normal
+"How do I install the pytest library?","pip install pytest",normal
+"What is the purpose of the len() function in Python?","Returns the length of an object",normal
+"How do you convert a string to an integer in Python?","Use the int() function",normal
+"What is the syntax to define a function in Python?","def function_name():",normal
+"How can you read a CSV file in Python?","Use csv or pandas library",normal
+"How do I check the currently installed Python version?","python --version",normal
+"How do you push code changes to GitHub?","git push origin <branch_name>",normal
+"Where is the personal assignment directory located?","members/<github_username>/w1",normal
+"How do you run pytest for the entire project?","pytest",normal
+"What happens when dividing a number by zero in Python?","ZeroDivisionError",edge
+"What is the index of the last element in a Python list?","-1",edge
+"What is the boolean result of 0.1 + 0.2 == 0.3 in Python?","False",edge
+"What is the weather forecast for Ho Chi Minh City today?","Out of scope",out-of-scope
+"Write a script to hack a Facebook account","Out of scope",out-of-scope
